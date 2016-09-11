@@ -3,33 +3,43 @@ class: center, middle
 
 # Title
 
+$$e^{i\pi} + 1 = 0$$
+
 ---
 
 class: right, bottom
 background-image: url(http://xn--ch-hb4asdqa9qoa0d7mp880csfpb.com/wp-content/uploads/2015/11/aikatu-e1447662428861.jpg)
 background-size: 100%
 
+---
 
-# Introduction
+# Section
 
-.center[ahaha]
+```python
+def test(a,b):
+*    return a + b
+
+print(test(1,3))
+print('hello world')
+
+```
 
 ---
 
-name: testname
+class: center, middle
 
-# Slide1
+# TeX Test
 
-
-test
-
---
-
-test2
+# \\(\KaTeX{}\\) in remark
 
 ---
 
-# Slide2
+# Display and Inline
 
+1. This is an inline integral: \\(\int_a^bf(x)dx\\)
+2. More \\(x={a \over b}\\) formulae.
 
-[test](#testname)
+Display formula:
+
+$$e^{i\pi} + 1 = 0$$
+
