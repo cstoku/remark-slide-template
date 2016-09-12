@@ -17,10 +17,10 @@ gulp.task("browserSyncTask", function () {
         }
     });
  
-    gulp.watch("./**/*.html", browserSync.reload);
-    gulp.watch("./**/*.md", browserSync.reload);
-    gulp.watch('./css/**/*.css', browserSync.reload);
-    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch("**/*.html", browserSync.reload);
+    gulp.watch("**/*.md", browserSync.reload);
+    gulp.watch('css/**/*.css', browserSync.reload);
+    gulp.watch('sass/**/*.scss', ['sass']);
 });
 
 gulp.task('default', ['browserSyncTask']);
